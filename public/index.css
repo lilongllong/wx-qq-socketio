@@ -1,0 +1,67 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.chat-main {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: row;
+}
+.chat-main > .chat-room {
+  flex: 0 0 100px;
+  display: flex;
+  flex-direction: column;
+}
+.chat-main > .chat-room > .bar {
+  flex: 0 0 30px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  padding: 5px;
+  background: #f3f3f3;
+  color: #7687b8;
+  border: 1px solid #7687b8;
+}
+.chat-main > .chat-room-content {
+  border-top: 1px solid #f3f3f3;
+  flex: 1 1 100px;
+  padding: 10px;
+  background: #7687b8;
+  display: flex;
+  flex-direction: column;
+}
+.chat-main > .chat-room-content > #chat-show {
+  flex: 1 1 100px;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.chat-main > .chat-room-content > #chat-show > .title {
+  border-bottom: 1px solid gray;
+}
+.chat-main > .chat-room-content > .input-content {
+  flex: 0 0 30px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chat-main > .chat-room-content > .input-content > input {
+  font-size: 20px;
+  line-height: 20px;
+  flex: 1 1 100px;
+}
+.chat-main > .chat-room-content > .input-content > button {
+  flex: 0 0 80px;
+  height: 30px;
+}

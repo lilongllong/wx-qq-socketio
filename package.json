@@ -1,0 +1,27 @@
+{
+  "name": "wx-qq-socketio",
+  "version": "1.0.0",
+  "description": "使用socket.io实现微信网页版的简化功能页面",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilongllong/wx-qq-socketio.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilongllong/wx-qq-socketio/issues"
+  },
+  "homepage": "https://github.com/lilongllong/wx-qq-socketio#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.0"
+  }
+}
