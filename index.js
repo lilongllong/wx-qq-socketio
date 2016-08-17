@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const server = require("http").Server(app);
-const SocketServer = require("./lib/server");
+const SocketServer = require("./lib/messagecenter");
 SocketServer.bindSocketIO(server);
 
 server.listen(8080);
