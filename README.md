@@ -1,4 +1,4 @@
-# wx-qq-socketio
+# wx-qq-socketio V1
 使用socket.io实现微信网页版的简化功能页面
 
 ## 实现的功能
@@ -19,3 +19,5 @@ npm install
 ```
 npm start
 ```
+## wx-qq-socketio V2
+尝试使用最新material-ui完善设计
